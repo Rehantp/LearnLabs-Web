@@ -2,6 +2,7 @@ import React from "react";
 import img from "../assets/testing.jpg";
 import img2 from "../assets/testing2.jpg";
 import img3 from "../assets/testing3.jpg";
+import img4 from "../assets/testing4.jpg";
 import SectionTitle from "../components/SectionTitle";
 
 const ResearchSection: React.FC = () => {
@@ -174,8 +175,8 @@ const ResearchSection: React.FC = () => {
                 <div className="relative bg-gray-800 p-6 rounded-lg">
                   <div className="h-64 flex items-center justify-center">
                     <img
-                      src="https://images.pexels.com/photos/5905443/pexels-photo-5905443.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                      alt="IntelliNote system"
+                      src={img4}
+                      alt="IntelliNote component"
                       className="max-h-full rounded-md"
                     />
                   </div>
