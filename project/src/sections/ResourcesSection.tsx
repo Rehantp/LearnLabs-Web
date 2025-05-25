@@ -28,6 +28,20 @@ const ResourcesSection: React.FC = () => {
       downloadUrl: sharedDriveUrl,
       fileType: "ppt",
     },
+    {
+      title: "Final Reports",
+      description:
+        "Comprehensive reports detailing the final project deliverables and insights.",
+      downloadUrl: sharedDriveUrl,
+      fileType: "pdf",
+    },
+    {
+      title: "Other Research Documents",
+      description:
+        "Additional resources, reports, and documentation that support the project findings.",
+      downloadUrl: sharedDriveUrl,
+      fileType: "pdf",
+    },
   ];
 
   return (

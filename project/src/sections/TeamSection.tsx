@@ -35,7 +35,7 @@ const TeamSection: React.FC = () => {
       <div className="container mx-auto px-4">
         <SectionTitle
           title="Our Research Team"
-          subtitle="Meet the interdisciplinary experts behind Learn Labs' groundbreaking research in AI-powered education."
+          subtitle="Meet the interdisciplinary Team behind Learn Labs' groundbreaking research in AI-powered education."
         />
         <div className="mt-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {teamMembers.map((member, index) => (
