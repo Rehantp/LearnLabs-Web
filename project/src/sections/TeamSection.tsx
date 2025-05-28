@@ -1,6 +1,8 @@
 import React from "react";
+import img5 from "../assets/drdarshana.jpg";
 import img1 from "../assets/hariniimg.jpg";
 import img2 from "../assets/harishimg.jpg";
+import img6 from "../assets/mrsrivoini.png";
 import img4 from "../assets/pathumimg.jpg";
 import img3 from "../assets/rehanimg.jpg";
 import SectionTitle from "../components/SectionTitle";
@@ -8,6 +10,16 @@ import TeamMember from "../components/TeamMember";
 
 const TeamSection: React.FC = () => {
   const teamMembers = [
+    {
+      name: "Dr. Dharshana Kasthurirathna",
+      role: "Assistant Professor (Supervisor)",
+      imageUrl: img5,
+    },
+    {
+      name: "Mrs. Rivoi Poojima",
+      role: "Assistant Lecturer        (Co-Supervisor)",
+      imageUrl: img6,
+    },
     {
       name: "Harish Balakrishnar",
       role: "Software Engineering Student",
@@ -37,7 +49,7 @@ const TeamSection: React.FC = () => {
           title="Our Research Team"
           subtitle="Meet the interdisciplinary Team behind Learn Labs' groundbreaking research in AI-powered education."
         />
-        <div className="mt-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="mt-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-8">
           {teamMembers.map((member, index) => (
             <TeamMember
               key={index}
